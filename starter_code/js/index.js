@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 $('.readmore').click(readMore);
+$('.readless').hide();
 
 function readMore() {
     event.preventDefault();
