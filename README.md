@@ -1,4 +1,4 @@
-#FEWD Week #4: JavaScript Basics
+<!-- #FEWD Week #4: JavaScript Basics
 
 ---
 
@@ -25,6 +25,8 @@ See a detailed technical explanation below.
 ### Technical Requirements 
 
 - Prevent a form submission with the ```event.preventDefault()``` function
+//*what does this mean? *// 
+
 - Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded
 - Select the appropriate DOM elements with CSS selectors upon a user's click using the ```$.click()``` handler
 - If a user clicks "Read More" on the primary column:
@@ -55,4 +57,9 @@ Students should use the same folder and GitHub repository as the previous projec
 
 ### Final Project Milestone 1
 
-By this week, you should have created and handed in wireframes that sketch out your idea and basic design for a final project.
+By this week, you should have created and handed in wireframes that sketch out your idea and basic design for a final project. -->
+
+
+
+
+

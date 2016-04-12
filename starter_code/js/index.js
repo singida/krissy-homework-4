@@ -8,6 +8,8 @@ function readMore() {
     $('#show-this-on-click').slideToggle();
     $('.readmore').hide();
     $('.readless').show();
+    $('.readmore').css('backgroundColor', 'red')
+    $('.readless').css('backgroundColor', 'blue')
 }
 
 $('.readless').click(readLess);
@@ -25,6 +27,20 @@ function showThisOnClick() {
 }
 $('#showThisOnClick').hide();
 $('#readMoreFunction').click(showThisOnClick);
+
+$('.learnmore').click(learnMore);
+
+function learnMore() {
+	event.preventDefault();
+	$('#learnmoretext').slideDown();
+	$('.learnmore').hide();
+}
+
+$('#buttonblue').click(buttonBlue);
+
+function buttonBlue() {
+	event.preventDefault();
+}
 
 
 }); 
